@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* you can make a comment */
+h1, h2, p {color: white(14, 13, 13);
+    font-size: 40px;
+display: flex;
+justify-content: center;}
+
+h2, p {color: white(14, 13, 13);
+    font-size: 25px;
+display: flex;
+justify-content: center;}
+
+/* this is how we target a html element */
+p {font-size: 25px;}
+body{background-image: url("flow2.png");
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+font-family: raleway;
+font-size: 50px;
+color: white;
+}
+
+#nav {
+    color: white;
+    /* border: rgb(249, 249, 252);
+    border-style: double;
+    border-radius: 50px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#nav a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: raleway;
+}
+
+#nav a:hover{
+    color: white;
+}
+
+/* pushes down to next line if screen is too small */
+h1 {
+    font-family: raleway;
+    color:white(3, 3, 3);
+    font-size:50px;
+}
+
+
+
